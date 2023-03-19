@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style/card.css">
     <title>Anime List</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <div class="flex items-center justify-evenly max-w-full w-1/2">
             <img class="object-contain h-14 w-14 rounded-md" src="img/ramen.png">
             <ul class="flex py-8 gap-x-10">
-                <li><a>Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a>Browse</a></li>
                 <li><a>Profile</a></li>
             </ul>
@@ -22,32 +23,47 @@
     </nav>
 
     <main>
-        <section id="activity" class="mx-32 my-8 flex flex-wrap gap-10 justify-center">
-        
-        <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
-            <img class="object-contain w-30" src="./img/naruto.jpg">
-            <p>Naruto</p>
-        </div>
-        <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
-            <img class="object-contain w-30" src="./img/naruto.jpg">
-            <p>Naruto</p>
-        </div>
-        <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
-            <img class="object-contain w-30" src="./img/naruto.jpg">
-            <p>Naruto</p>
-        </div>
-        <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
-            <img class="object-contain w-30" src="./img/naruto.jpg">
-            <p>Naruto</p>
-        </div>
-        <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
-            <img class="object-contain w-30" src="./img/naruto.jpg">
-            <p>Naruto</p>
-        </div>
-        <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
-            <img class="object-contain w-30" src="./img/naruto.jpg">
-            <p>Naruto</p>
-        </div>
+
+        <section id="activity" class="mx-32 my-8 flex flex-col flex-wrap gap-10 justify-center">
+            <article class="w-96 bg-blue-400 flex flex-row">
+                <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
+                    <img class="object-contain w-30" src="./img/naruto.jpg">
+                    <p>Naruto</p>
+                </div>
+                <div class="flex activity-message max-h-4">
+                    <strong>Username</strong>
+                    <p>Watched episode "4-7"</p>
+                </div>
+
+            </article>
+            
+            <article>
+                <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
+                    <img class="object-contain w-30" src="./img/naruto.jpg">
+                    <p>Naruto</p>
+                </div>
+            </article>
+
+            <article>
+                <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
+                    <img class="object-contain w-30" src="./img/naruto.jpg">
+                    <p>Naruto</p>
+                </div>
+            </article>
+
+            <article>
+                <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
+                    <img class="object-contain w-30" src="./img/naruto.jpg">
+                    <p>Naruto</p>
+                </div>
+            </article>
+
+            <article>
+                <div class="card rounded-sm bg-slate-500 w-32 overflow-hidden">
+                    <img class="object-contain w-30" src="./img/naruto.jpg">
+                    <p>Naruto</p>
+                </div>
+            </article>
         </section>
     </main>
 
