@@ -3,14 +3,19 @@
     border: 1px solid black;
 }
 
+
 .card img {
     border-bottom: 1px solid black;
 }
+
 .card p {
     text-align: center;
 }
 
+
+/*due to flex col: justify = vertical, align = horisontal*/
 .activity-message {
     margin: 5%;
-
+    justify-content: center;
 }
+
